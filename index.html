@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice_team_pj</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans KR",
+          Arial, sans-serif;
+        line-height: 1.5;
+      }
+      main {
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+      .card {
+        width: min(720px, 100%);
+        border: 1px solid color-mix(in oklab, CanvasText 20%, transparent);
+        border-radius: 16px;
+        padding: 20px;
+        background: color-mix(in oklab, Canvas 92%, transparent);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 24px;
+      }
+      p {
+        margin: 0 0 12px;
+        opacity: 0.9;
+      }
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+      }
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 12px;
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px solid color-mix(in oklab, CanvasText 22%, transparent);
+      }
+      a.button:hover {
+        background: color-mix(in oklab, CanvasText 6%, transparent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card" aria-labelledby="title">
+        <h1 id="title">practice_team_pj</h1>
+        <p>정상적으로 <code>index.html</code>이 생성되었습니다.</p>
+        <p>여기부터 팀 프로젝트 페이지를 만들어가면 됩니다.</p>
+        <div class="actions">
+          <a class="button" href="./README.md">README 보기</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
